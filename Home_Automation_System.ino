@@ -1,4 +1,6 @@
 //HOME AUTOMATION SYSTEM
+//this code is for Arduio UNO
+//It may not work on your board
 #include<SoftwareSerial.h>
 SoftwareSerial BT(10,11);//(TX,RX)blutooth Tx,Rx pin to ardunio pin 10,11
 String readData;
